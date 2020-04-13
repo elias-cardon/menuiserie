@@ -11,6 +11,28 @@
     padding-bottom: 1em;
     width:100%;
 }
+
+body
+{
+	background-color: rgb(229, 226, 226);
+}
+
+.presentation p
+{
+	font-size: 20px;
+    -webkit-column-count:2;
+    -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+    -webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+}
+
+.presentation p
+{
+	margin: 30px;
+}
 .presentation
 {
 	padding: 10em;
