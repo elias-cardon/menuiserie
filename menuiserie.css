@@ -205,14 +205,6 @@ body
 	background-color: rgb(229, 226, 226);
 }
 /*Présentation de l'entreprise*/
-.PrésentationX header
-{
-	background: brown;
-    padding-top:2em;
-    padding-bottom: 1em;
-    width:100%;
-}
-
 .presentation p
 {
 	font-size: 20px;
@@ -290,19 +282,6 @@ body
 }
 
 /*Contact*/
-.contact header
-{
-	background: brown;
-    padding-top:2em;
-    padding-bottom: 1em;
-    width:100%;
-}
-
-#headerX h1
-{
-	text-align: center;
-}
-
 /*Formulaire*/
 input {
 	outline: none;
