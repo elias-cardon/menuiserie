@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*Contact*/
 .contact header
 {
 	background: brown;
@@ -53,7 +54,6 @@ textarea:-moz-placeholder { color: #bdbdd3;}
 textarea::-moz-placeholder { color: #bdbdd3;}
 textarea:-ms-input-placeholder { color: #bdbdd3;}
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -68,8 +68,6 @@ iframe {
 	border: none !important;
 }
 
-
-/*---------------------------------------------*/
 .container {
 	max-width: 1200px;
 }
@@ -87,7 +85,7 @@ iframe {
   align-items: center;
   padding: 15px;
   position: relative;
-  background-color: #f2f2f2;
+
 }
 
 .wrap-contact100 {
@@ -132,8 +130,6 @@ iframe {
   line-height: 1.2;
 }
 
-
-/*---------------------------------------------*/
 input.input100 {
   height: 62px;
   padding: 0 35px 0 35px;
