@@ -205,7 +205,7 @@ body
 	background-color: rgb(229, 226, 226);
 }
 /*Présentation de l'entreprise*/
-.presentation p
+.entreprise p
 {
 	font-size: 20px;
     -webkit-column-count:2;
@@ -217,11 +217,16 @@ body
     column-rule: 2px dashed #555;
 }
 
-.presentation p
+.entreprise h1
+{
+	margin: 1.5em;
+}
+
+.entreprise p
 {
 	margin: 30px;
 }
-.presentation
+.entreprise
 {
 	padding: 10em;
 }
@@ -264,7 +269,7 @@ body
   -ms-filter: grayscale(0);
   transition: all 225ms 0ms ease-in-out
 }
-.presentation {
+.entreprise {
   animation-duration: 3s;
   animation-name: slidein;
 }
