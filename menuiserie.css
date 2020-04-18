@@ -524,6 +524,25 @@ form {
 
 /*Fin contact*/
 
+/*fondu images*/
+
+.fondu_img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+.fondu_img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    transition: all 225ms 0ms ease-in-out
+}
+
 /*Réalisation*/
 .card {
     border: 1px solid #bac6d3;
@@ -552,4 +571,19 @@ form {
 .taille_A
 {
     width: 99.9%;
+}
+
+.droite {
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Parquet_1
+{
+  width: 50%;
 }
