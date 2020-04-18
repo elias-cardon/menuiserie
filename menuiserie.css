@@ -525,3 +525,31 @@ form {
 /*Fin contact*/
 
 /*Réalisation*/
+.card {
+    border: 1px solid #bac6d3;
+    border-radius: 8px;
+    padding: 1rem;
+    height: 100%;
+    animation-name: rollIn;
+    animation-duration: 2s;
+}
+
+#Intro {
+    text-align: center;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+}
+
+.taille_A
+{
+    width: 99.9%;
+}
