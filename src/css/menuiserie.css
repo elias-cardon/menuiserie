@@ -596,11 +596,6 @@ form {
 }
 
 /*Patron*/
-.bg-regent-saint-blue {
-    background-color: var(--regent-saint-blue-overlay-high);
-    min-height: 100vh;
-}
-
 .card-container {
     display: flex;
     flex-direction: row;
@@ -661,24 +656,6 @@ form {
 }
 
 @media screen and (min-width:1500px) {
-    .about-us {
-        height: 100vh;
-        width: 100vw;
-        position: relative;
-        background-image: url(../img/backgrounds/hand.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .overlay-about-us {
-        height: 100vh;
-        width: 100vw;
-        background-color: rgba(255, 255, 255, 0.55);
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
     .card-team {
         height: 12rem;
         width: 18rem;
@@ -690,24 +667,6 @@ form {
 }
 
 @media screen and (max-width:1499px) {
-    .about-us {
-        min-height: 100vh;
-        width: 100vw;
-        position: relative;
-        background-image: url(../img/backgrounds/hand.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    .overlay-about-us {
-        min-height: 100vh;
-        width: 100vw;
-        background-color: rgba(255, 255, 255, 0.55);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
     .card-team {
         height: 12rem;
         width: 18rem;
