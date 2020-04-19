@@ -192,6 +192,18 @@ footer a:hover{
     }
 }
 
+@keyframes slidein {
+  from {
+    margin-left:50%;
+    width:50%
+  }
+  
+  to {
+    margin-left:50%;
+    width:50%;
+  }
+}
+
 /*Elias*/
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
@@ -274,17 +286,7 @@ body
   animation-name: slidein;
 }
 
-@keyframes slidein {
-  from {
-    margin-left:50%;
-    width:50%
-  }
-  
-  to {
-    margin-left:50%;
-    width:50%;
-  }
-}
+
 
 /*Contact*/
 /*Formulaire*/
@@ -544,6 +546,11 @@ form {
 }
 
 /*Réalisation*/
+.animation
+{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
 .card {
     border: 1px solid #bac6d3;
     border-radius: 8px;
