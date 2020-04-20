@@ -214,18 +214,6 @@ body
 	background-color: rgb(229, 226, 226);
 }
 /*Présentation de l'entreprise*/
-.entreprise p
-{
-	font-size: 20px;
-    -webkit-column-count:2;
-    -webkit-column-gap: 100px;
-    -moz-column-gap: 100px;
-    column-gap: 100px;
-    -webkit-column-rule: 2px dashed #555;
-    -moz-column-rule: 2px dashed #555;
-    column-rule: 2px dashed #555;
-}
-
 .entreprise h1
 {
 	margin: 1.5em;
@@ -237,7 +225,7 @@ body
 }
 .entreprise
 {
-	padding: 10em;
+	padding: 1em;
 }
 .image{
   filter: grayscale(1);
@@ -676,6 +664,8 @@ form {
         margin-top: 2rem;
     }
 }
+
+
 
 /*media entreprise*/
 @media screen and (min-width:1200px){
