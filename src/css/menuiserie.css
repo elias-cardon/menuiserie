@@ -239,29 +239,6 @@ body
 {
 	padding: 10em;
 }
-#section1
-{
-	display: flex;
-	flex-direction: row;
-}
-
-#section2
-{
-	display: flex;
-	flex-direction: row-reverse;
-}
-
-#section3
-{
-	display: flex;
-	flex-direction: row;
-}
-
-#section4
-{
-	display: flex;
-	flex-direction: row-reverse;
-}
 .image{
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
@@ -283,7 +260,13 @@ body
   animation-name: slidein;
 }
 
-
+#section3 a{
+  text-decoration: none;
+  color: rgb(185, 137, 137);
+}
+#section3 a:hover{
+  opacity: 0.7;
+}
 
 /*Contact*/
 /*Formulaire*/
@@ -652,6 +635,7 @@ form {
     font-size: 0.75rem;
 }
 
+/*MEDAS*/
 @media screen and (min-width:1500px) {
     .card-team {
         height: 12rem;
@@ -675,3 +659,73 @@ form {
         margin-top: 2rem;
     }
 }
+
+/*media entreprise*/
+@media screen and (min-width:1200px){
+  #section1
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #section2
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  #section3
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  #section4
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  }
+  @media screen and (max-width:1199px){
+  #section1
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #section1 img{
+    order: 1;
+  }
+  #section1 h1{
+    text-align: center;
+  }
+  #section1 p{
+    order: 2;
+  }
+  #section2
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #section3
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #section4
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  #section4 img{
+    order: 1;
+  }
+  #section4 p{
+    order: 2;
+  }
+  .image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  }
