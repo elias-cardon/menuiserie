@@ -646,7 +646,7 @@ form {
 }
 
 .card-team:hover .card-description p {
-  font-size: 100%;
+  font-size: 110%;
 }
 
 .card-description p {
@@ -659,7 +659,8 @@ form {
     .card-team {
         height: 12rem;
         width: 18rem;
-        margin: 2rem;
+        margin: auto;
+        margin-top: 2rem;
         background-color: #FFF;
         position: relative;
         cursor: pointer;
@@ -673,9 +674,7 @@ form {
         background-color: #FFF;
         position: relative;
         cursor: pointer;
+        margin: auto;
         margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
