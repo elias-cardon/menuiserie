@@ -526,6 +526,10 @@ form {
 }
 
 /*Réalisation*/
+.realisations p
+{
+  margin: 1.5rem;
+}
 .animation
 {
   animation-duration: 3s;
@@ -573,6 +577,19 @@ form {
 .img_taille
 {
   width: 50%;
+}
+
+.droite a
+{
+  text-decoration: none;
+  color: #CD5C5C;
+  transition: 0.3;
+}
+
+.droite a:hover
+{
+  opacity: 0.7;
+
 }
 
 /*Patron*/
