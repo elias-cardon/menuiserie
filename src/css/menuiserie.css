@@ -587,7 +587,7 @@ form {
     flex-direction: row-reverse;
 }
 
-#img_taille
+.img_taille
 {
   width: 50%;
 }
